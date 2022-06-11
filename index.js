@@ -23,10 +23,10 @@ function btn(event) {
     .then(json => {
       if(json){
         // Instant downloading
-        // const link = (json.file)
+        const link = (json.file)
 
         //Redirecting to yandex file
-        const link = (json.public_url)
+        // const link = (json.public_url)
         
         document.location.href = link;
       }
