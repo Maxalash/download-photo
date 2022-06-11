@@ -1,3 +1,4 @@
+
 body::-webkit-scrollbar, html::-webkit-scrollbar{
   display: none;
 }
@@ -764,6 +765,7 @@ a {
     position: relative;
     height: 100px;
     overflow: hidden;
+    width: 320px;
   }
 
   body::-webkit-scrollbar, html::-webkit-scrollbar{
@@ -911,13 +913,18 @@ a {
   #comp-kik8gdsr {
     margin-top: -40px;
     width: 720px;
-    left: 0px;
+    left: -420px;
   }
 
   #comp-kik8p0ue {
     margin-top: -75px;
     width: 1020px;
-    left: -620px;
+    left: -695px;
 
+  }
+  #comp-kik7pg1u {
+    left: -1590px;
+    z-index: -5;
+    top: -275px;
   }
 }
