@@ -16,6 +16,7 @@ function btn(event) {
     .then(res => {
       if(res.status>=400){
         document.getElementById('comp-kiz0dz15').style.visibility = 'visible';
+        document.getElementById('input_comp-kixfyipi').style.backgroundColor = 'red';
         return null;
       }else return res.json();
     })     
@@ -34,8 +35,16 @@ function btn(event) {
     document.getElementById('input_comp-kixfyipi').value = ''
 }
 
+function balonmove(){
+  document.getElementById("ballon").style.width = '616px';
+  document.getElementById("ballon").style.height = '661px';
+
+}
+
 document.getElementById('down-btn').addEventListener('click',(ev)=>{ btn(ev)});
 
 document.getElementById('comp-kik9a05i').addEventListener('click', (eve) =>{document.getElementById("POPUPS_ROOT").style.display = 'block'});
 
-document.getElementById('comp-kipr32n41').addEventListener('click', (ev)=>{document.getElementById("POPUPS_ROOT").style.display = 'none';})
+document.getElementById('comp-kipr32n41').addEventListener('click', (ev)=>{document.getElementById("POPUPS_ROOT").style.display = 'none';});
+
+window.onload = balonmove();

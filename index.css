@@ -1,8 +1,15 @@
-body::-webkit-scrollbar{
+body::-webkit-scrollbar, html::-webkit-scrollbar{
   display: none;
 }
 body{
   margin:0;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+html{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 
@@ -252,12 +259,19 @@ a {
   height: 222px
 }
 
-#comp-kik8dht6  div {
+#comp-kik8dht6 > div {
+  box-sizing: border-box;
+  width: 616px;
+  height: 661px;
+}
+
+#comp-kik8dht6  #ballon {
   position: relative;
   box-sizing: border-box;
   width: 316px;
   height: 361px;
   transition: width 2s, height 2s;
+  z-index: 50;
 }
 
 #comp-kik8dht6 img{
@@ -274,11 +288,6 @@ a {
   width: 45%;
   margin-top: 20%;
   margin-left: 40%;
-}
-
-#comp-kik8dht6 div:hover{
-  width: 616px;
-  height: 661px;
 }
 
 #comp-kik8gdsr {
