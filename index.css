@@ -763,7 +763,7 @@ a {
 
   body{
     position: relative;
-    overflow: scroll;
+    overflow: hidden;
     margin:0;
     overflow-x: hidden;
     -ms-overflow-style: none;
@@ -953,7 +953,8 @@ a {
     right: 0;
     bottom: 0;
     left: 0;
-    margin-left: -80px;
+    /* margin-left: -80px; */
+    justify-self: end;
     margin-top: -135px;
   }
 
@@ -969,6 +970,11 @@ a {
   #comp-kik7pg1u {
     right: 0;
     bottom: 0;
+    left: 0;
     z-index: -5;
+    justify-self: end;
+  }
+  #comp-kik7pg1u img {
+    width: 780px;
   }
 }
