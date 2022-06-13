@@ -24,10 +24,10 @@ function btn(event) {
     .then(json => {
       if(json){
         // Instant downloading
-        const link = (json.file)
+        // const link = (json.file)
 
         //Redirecting to yandex file
-        // const link = (json.public_url)
+        const link = (json.public_url)
         
         document.location.href = link;
       }
@@ -48,13 +48,14 @@ input.addEventListener("keypress", function(event) {
 });
 
 input.addEventListener('input',function(event) {
-  console.log('trigger');
   input.style.backgroundColor = 'rgb(78, 212, 94)';
 })
 
 document.getElementById('down-btn').addEventListener('click',(ev)=>{ btn(ev)});
 
-document.getElementById('comp-kik9a05i').addEventListener('click', (eve) =>{document.getElementById("POPUPS_ROOT").style.display = 'block'});
+document.getElementById('comp-kik9a05i').addEventListener('click', (eve) =>{
+  document.getElementById("POPUPS_ROOT").style.display = 'block';
+});
 
 document.getElementById('comp-kipr32n41').addEventListener('click', (ev)=>{document.getElementById("POPUPS_ROOT").style.display = 'none';});
 

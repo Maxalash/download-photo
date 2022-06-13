@@ -977,4 +977,8 @@ a {
   #comp-kik7pg1u img {
     width: 780px;
   }
+  .Z6QKu * {
+    z-index: 50;
+    visibility: inherit;
+  }
 }
