@@ -344,6 +344,8 @@ a {
   width: 111px;
   height: 19px;
   padding-top: -10px;
+  font-size: 15px;
+  height: auto;
 }
 
 #comp-l31madmp {
@@ -509,10 +511,6 @@ a {
   --inputHeight: 37px;
 }
 
-#comp-kiz0dz15 {
-  height: auto
-}
-
 #mua1n {
   width: auto;
   min-height: 738px;
@@ -577,8 +575,6 @@ a {
 
 #comp-kiz0dz15 {
   visibility: hidden;
-  /* opacity: 0; */
-  /* transition: opacity 0.5s linear; */
 }
 
 #input_comp-kixfyipi {
@@ -808,7 +804,7 @@ a {
 
   body{
     position: relative;
-    overflow: hidden;
+    overflow: auto;
     margin:0;
     overflow-x: hidden;
     -ms-overflow-style: none;
@@ -927,13 +923,25 @@ a {
     transform: translateX(-100%);
   }
 
+  #comp-kiz0dz15{
+    left: 0;
+    margin-top: -39px;
+    margin-left: 50%;
+    transform: translateX(10%);
+    font-size: 0.8rem;
+  }
+
+  #comp-kiz0dz15 * {
+    font-size: inherit;
+  }
+
   #comp-kixfuoev #down-btn{
     padding: 5px;
   }
 
   [data-mesh-id=comp-kipqnjq3-rotated-wrapper] {
     margin-left: 30%;
-    margin-top: -50px;
+    margin-top: 0px;
     transform: translateX(-50%);
     top: 0;
     left: 0;
