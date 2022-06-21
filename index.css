@@ -981,4 +981,25 @@ a {
     z-index: 50;
     visibility: inherit;
   }
+
+
+
+  #comp-kkeizdxi {
+    opacity: 1;
+  }
+
+  .emerge {
+    animation: emerging 2s;
+  }
+
+}
+
+@keyframes emerging {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+  
 }

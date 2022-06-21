@@ -51,6 +51,10 @@ input.addEventListener('input',function(event) {
   input.style.backgroundColor = 'rgb(78, 212, 94)';
 })
 
+document.getElementById('comp-kik9a05i').addEventListener('click',(ev)=>{
+  document.getElementById('comp-kkeizdxi').classList.add('emerge');
+})
+
 document.getElementById('down-btn').addEventListener('click',(ev)=>{ btn(ev)});
 
 document.getElementById('comp-kik9a05i').addEventListener('click', (eve) =>{
